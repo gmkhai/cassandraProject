@@ -29,7 +29,7 @@ class CassandraAdapter:
         return True
 
     @disconnect
-    def create_table(self, *args, **kwargs):
+    def create_table(self, table_name,*args, **kwargs):
         pass
 
     @disconnect
